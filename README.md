@@ -28,8 +28,8 @@
 
 ## 專案架構
 
-├─ controller
-│ │ MainUI.java
+├─ controller  
+│ │ MainUI.java  
 │ │ ManagerUI.java
 │ │ ParkingReportUI.java
 │ │
