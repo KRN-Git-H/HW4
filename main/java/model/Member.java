@@ -1,0 +1,84 @@
+package model;
+
+import java.io.Serializable;
+
+public class Member implements Serializable,LicenseHolder{
+	private int id;
+	private String account;
+	private String password;
+	private String name;
+	private String phone;
+	private String license;
+	private String category;
+	
+	public Member() {
+		
+	}
+	
+	public Member(String account,String password,String name,String phone,String license,String category) {
+		this.account = account;
+		this.password = password;
+		this.name = name;
+		this.phone = phone;
+		this.license = license;
+		this.category = category;
+		
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getAccount() {
+		return account;
+	}
+
+	public void setAccount(String account) {
+		this.account = account;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public String getLicense() {
+		return license;
+	}
+
+	public void setLicense(String license) {
+		this.license = license;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	
+}
