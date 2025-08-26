@@ -92,5 +92,5 @@ ToolUI.java
 
 - **Java JDK 11** 或以上  
 - **MySQL 8+**  
-- **Maven** (建議管理依賴)  
-- **JFreeChart / JCommon** (已加入 pom.xml)  
+- **Maven**
+- **JFreeChart / JCommon**
